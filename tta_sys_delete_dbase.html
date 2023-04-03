@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Thrift Avenue Database Structure</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+
+<form class="form-container" action="tta_sys_view_admindbase.html" method="get">
+    <h1>The Thrift Avenue</h1>
+    <fieldset>
+        <legend class="form-header">Delete column</legend>
+    <table>
+        <thead>
+            <tr>
+                <th><label class="form-label" for="addI"><b>Delete Column</b></label></th>
+                <th><input class="form-input"type="checkbox" name="addI"><br></th>
+            </tr>                
+            <tr>
+                <th><label class="form-label" for="deleteN"><b>Name</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deleteN"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="deleteF"><b>Fields</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deleteF"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="deleteDT"><b>Data Type</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deleteDT"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="deletePK"><b>PK</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deletePK"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="deleteAI"><b>Data Type</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deleteAI"><br></th>
+            </tr>
+        </thead>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend class="form-header">Delete form</legend>
+    <table>
+
+            <tr>
+                <th><label class="form-label" for="deleteI"><b>Delete information</b></label></th>
+                <th><input class="form-input" type="checkbox" name="deleteI"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="name"><b>Name:</b></label></th>
+                <th><input class="form-input" type="text" placeholder="Name" name="name"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label"for="fields"><b>Fields:</b></label></th>
+                <th><input class="form-input" type="text" placeholder="Fields" name="fields"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="pk"><b>PK</b></label></th>
+                <th><input class="form-input" type="checkbox" name="pk"><br></th>
+            </tr>
+            <tr>
+                <th><label class="form-label" for="ai"><b>AI</b></label></th>
+                <th><input class="form-input" type="checkbox" name="ai"><br></th>
+            </tr>
+        </thead>
+        <tr>
+            <th></th>
+            <th colspan="2" align="left"><button class="form-button" type="submit">UPDATE</button></th>
+        </tr>
+    </form>
+</fieldset>
+</body>
+</html>

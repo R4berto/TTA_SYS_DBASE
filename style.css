@@ -1,0 +1,76 @@
+/*background*/
+body{
+    background-color: #bdcdd6;
+}
+/* Form Container*/
+.form-container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6096b4;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+/* Form Header */
+h1{
+    margin-bottom:20px ;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.form-header {
+    margin-bottom:20px ;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* form label */
+.form-label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:black;
+}
+/* Form input */
+.form-input{
+    width: 95%;
+    padding: 10px;
+    margin: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #;
+
+}
+.form-input:focus{
+    outline:none;
+    background-color: #bdcdd6;
+    box-shadow: 0 0 5px rgba(81,203,238,1);
+}
+/* form button */
+.form-button{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #bdcdd6;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2 ease-in-out;
+}
+.form-button:hover{
+    background-color: #Bdbbb6;
+}
+/* form error message */
+.form-error{
+    color: red;
+    font-size:12px;
+    margin-top:5x;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
